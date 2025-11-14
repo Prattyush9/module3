@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+
+  <!-- Custom CSS (optional) -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+	
+<body>
+	<div class="container mt-4">
+
+		<h1>Hello Students!</h1>
+		<p>Resize the browser window to see the effect.</p>
+
+		<!-- ROW 1 -->
+		<div class="row">
+			<div class="col-md-8 col-4" style="background-color:red; border:1px solid black;">col-4 / col-md-8</div>
+			<div class="col-md-4 col-8" style="background-color:lavender; border:1px solid black;">col-8 / col-md-4</div>
+		</div>
+
+		<br>
+
+		<!-- ROW 2 -->
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-6" style="background-color:lavenderblush; border:1px solid black;">col-6 / col-md-12 / col-lg-6</div>
+			<div class="col-md-2 col-6" style="background-color:lightgrey; border:1px solid black;">col-6 / col-md-2</div>
+		</div>
+
+		<br>
+
+		<!-- ROW 3 -->
+		<div class="row" style="background-color:lightcyan;">
+			<div class="col-6" style="border:1px solid black;">col-6 (xs)</div>
+			<div class="col-6" style="border:1px solid black;">col-6 (xs)</div>
+		</div>
+
+	</div>
+
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+</html>
