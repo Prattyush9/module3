@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Horizontal Scrollspy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    #scrollspyContainer {
+      position: relative;
+      height: 300px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body class="p-4">
+
+  <h2>Horizontal Scrollspy Navigation</h2>
+
+  <ul class="nav nav-pills mb-3 justify-content-center" id="horizontalNav">
+    <li class="nav-item">
+      <a class="nav-link active" href="#item-1">Item 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#item-2">Item 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#item-3">Item 3</a>
+    </li>
+  </ul>
+
+  <div id="scrollspyContainer" data-bs-spy="scroll" data-bs-target="#horizontalNav" data-bs-offset="0" tabindex="0" class="border rounded-3 p-3">
+    <h4 id="item-1">Item 1</h4>
+    <p>Content for item 1... (add a lot of text here in real usage)</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget...</p>
+
+    <h4 id="item-2">Item 2</h4>
+    <p>Content for item 2...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget...</p>
+
+    <h4 id="item-3">Item 3</h4>
+    <p>Content for item 3...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget...</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
